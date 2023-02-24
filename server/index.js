@@ -4,6 +4,7 @@ const mongoose = require('mongoose')
 const config = require('./config')
 const FakeDb = require('./fake-db')
 const productRoutes = require('./routes/products')
+const path =require('path')
 
 mongoose.set('strictQuery', false)
 
